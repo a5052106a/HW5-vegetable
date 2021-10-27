@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+html,
+body {
+    width: 1260px;
+    height: 880px;
+    font-family: "Arial Black";
+}
+
+.bg {
+    width: 1260px;
+    height: 880px;
+    background-color: #EDF2C5;
+    padding: 36px 160px 35px;
+}
+
+.header {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.title{
+    margin-right: 464px;
+    font-size: 44px;
+    color: #778A50;
+}
+
+.header-image {
+    width: 25px;
+    height: 25px;
+    margin: 24px 5px 13px;
+}
+
+.header-line {
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin: 24px 5px 13px;
+}
+
+.header-btn {
+    height: 25px;
+    font-size: 14px;
+    color: #778A50;
+    background-color: #EDF2C5;
+
+    border: 1px solid #778A50;
+    border-radius: 3px;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.login {
+    width: 60px;
+    margin: 24px 5px 13px;
+}
+
+.join {
+    width: 50px;
+    margin: 24px 0px 13px 5px;
+}
+.nav-list {
+    background-color: #778A50;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-link {
+    display: block;
+    font-size: 16px;
+    color: #EDF2C5;
+    margin: 10px 30px 11px;
+    text-decoration: none;
+}
+
+.main-img{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2{
+    width: 444px;
+    height: 45px;
+    font-size: 16px;
+    color: #EDF2C5;
+    background-color: #778A50;
+    border-radius: 3px;
+    padding: 10px 30px 12px;
+    margin-bottom: 15px;
+}
+
+.main-vegetable-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-box-contact-text{
+  width: 444px;
+  height: 140px;
+  margin: 15px 0 0;
+  padding: 15px;
+  background-color: #f7fbda;
+}
+.contact-text{
+  width: 414px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+.contact-line{
+  width: 414px;
+  height: 1px;
+  margin: 15px 0;
+  background-color: #7d7d7d;
+}
+.contact-detail{
+  width: 197px;
+  height: 35px;
+  margin: 15px 217px 0 0;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+
+.footer{
+    width: 1260px;
+    height: 60px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #EDF2C5;
+    background-color: #778A50;
+    padding: 23px 479px;
+}
