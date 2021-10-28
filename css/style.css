@@ -14,12 +14,11 @@ body {
     width: 1260px;
     height: 880px;
     background-color: #EDF2C5;
-    padding: 36px 160px 35px;
+    padding: 0px 160px 35px;
 }
 
 .header {
     display: flex;
-    padding-bottom: 5px;
 }
 
 .title{
